@@ -1,0 +1,6 @@
+{
+	"tickets":[
+		{ "id": 1, "title": "test title1", "content": "test content1", "priority": "high", "status": "open" },
+		{ "id": 2, "title": "test title2", "content": "test content2", "priority": "normal", "status": "pending" }
+	]
+}
