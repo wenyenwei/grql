@@ -1,6 +1,68 @@
 {
-	"tickets":[
-		{ "id": 1, "title": "test title1", "content": "test content1", "priority": "high", "status": "open" },
-		{ "id": 2, "title": "test title2", "content": "test content2", "priority": "normal", "status": "pending" }
-	]
+  "tickets": [
+    {
+      "id": 1,
+      "title": "test title1",
+      "content": "test content1",
+      "priority": "high",
+      "status": "open",
+      "requesterId": 1,
+      "assigneeId": 2
+    },
+    {
+      "id": 2,
+      "title": "test title2",
+      "content": "test content2",
+      "priority": "normal",
+      "status": "pending",
+      "requesterId": 2,
+      "assigneeId": 1
+    },
+    {
+      "id": 3,
+      "title": "ticket title 3",
+      "requesterId": 1,
+      "priority": "urgent",
+      "status": "pending",
+      "assigneeId": 2
+    },
+    {
+      "id": 4,
+      "title": "ticket title 4",
+      "content": "ticket content 4",
+      "priority": "low",
+      "status": "pending",
+      "requesterId": 1,
+      "assigneeId": 2
+    },
+    {
+      "title": "ticket title 5",
+      "content": "ticket content 5",
+      "priority": "low",
+      "status": "pending",
+      "requesterId": 1,
+      "assigneeId": 2,
+      "id": 5
+    }
+  ],
+  "requesters": [
+    {
+      "id": 1,
+      "name": "user1"
+    },
+    {
+      "id": 2,
+      "name": "user2"
+    }
+  ],
+  "assignees": [
+    {
+      "id": 1,
+      "name": "user1"
+    },
+    {
+      "id": 2,
+      "name": "user2"
+    }
+  ]
 }
